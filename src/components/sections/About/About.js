@@ -1,7 +1,11 @@
 import React from "react";
+import Carousel from "react-bootstrap/Carousel";
 
 import Section from "../../../HOC/Section";
-import aboutImage from "../../../assets/img/s1.png";
+import aboutImage1 from "../../../assets/img/s1.png";
+import aboutImage2 from "../../../assets/img/302.jpg";
+import aboutImage3 from "../../../assets/img/303.jpg";
+import aboutImage4 from "../../../assets/img/304.jpg";
 
 const about = () => {
   return (
@@ -17,7 +21,25 @@ const about = () => {
           <div className="row">
             <div className="col-md-12 col-lg-6 mb-3">
               <div className="aboutImage">
-                <img src={aboutImage} alt="about company" />
+                {/* <img src={aboutImage} alt="about company" /> */}
+                <Carousel>
+                  <Carousel.Item>
+                    <img src={aboutImage1} alt="about company" />
+                    <Carousel.Caption></Carousel.Caption>
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img src={aboutImage2} alt="about company" />
+                    <Carousel.Caption></Carousel.Caption>
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img src={aboutImage3} alt="about company" />
+                    <Carousel.Caption></Carousel.Caption>
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img src={aboutImage4} alt="about company" />
+                    <Carousel.Caption></Carousel.Caption>
+                  </Carousel.Item>
+                </Carousel>
               </div>
             </div>
             <div className="col-md-12 col-lg-6">

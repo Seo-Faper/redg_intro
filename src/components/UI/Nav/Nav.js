@@ -36,7 +36,16 @@ const Nav = () => {
               fontStyle: "bold",
             }}
           >
-            RedG Company
+            ReD
+          </span>
+          <span
+            style={{
+              fontFamily: "Noto sans KR, sans-serif",
+              color: "#d53232",
+              fontStyle: "bold",
+            }}
+          >
+            G
           </span>
         </a>
         <div
@@ -70,7 +79,7 @@ const Nav = () => {
             </li>
             <li className="nav-item">
               <Link target="services" classes="nav-link">
-                기술과 서비스
+                기술과 비전
               </Link>
             </li>
             <li className="nav-item">
@@ -78,20 +87,13 @@ const Nav = () => {
                 구성원
               </Link>
             </li>
+            <li className="nav-item">
+              <Link target="map" classes="nav-link">
+                찾아오시는 길
+              </Link>
+            </li>
           </ul>
         </div>
-        <ul className="navbar-nav ml-auto">
-          <li className="nav-item">
-            <Link target="extra" classes="nav-link">
-              찾아오시는 길
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link target="extra" classes="nav-link">
-              가격 정책
-            </Link>
-          </li>
-        </ul>
       </div>
     </nav>
   );

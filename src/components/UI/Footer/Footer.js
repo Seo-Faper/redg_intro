@@ -13,7 +13,7 @@ const footer = () => {
             </div>
             <div className="footer-content">
               <p>
-                <small>차세대 보안 리더 양성 프로그램 12기 최고 아웃풋</small>
+                <small>차세대 보안 리더 양성 프로그램 12기 그랑프리팀</small>
               </p>
             </div>
           </div>
@@ -45,7 +45,7 @@ const footer = () => {
           </div>
           <div className="col-sm-6 col-md-6 col-lg-3 mb-5">
             <div className="footer-title">
-              <h6>최근 소식</h6>
+              <h6>뉴스 & 소식</h6>
             </div>
             <div className="footer-content">
               <p>
@@ -53,13 +53,25 @@ const footer = () => {
               </p>
               <p>
                 <small className="">
-                  비오가 비오비에 합격하면 '비오비오비'.. 네티즌들 "충격 "
-                  (더보기)
+                  한국경제 - 해군 창업 경진대회 우승
+                  <br />
+                  <a
+                    href="https://www.hankyung.com/article/202205276556i"
+                    target="_blank"
+                  >
+                    (더보기)
+                  </a>
                 </small>
               </p>
               <p>
                 <small className="">
-                  그랑프리 우승 못 할 시 원장실에서 간장 샤워..
+                  국방일보 - 바다사랑 재단에 우승상금 기부 <br />
+                  <a
+                    href="https://kookbang.dema.mil.kr/newsWeb/m/20211216/6/BBSMSTR_000000010026/view.do"
+                    target="_blank"
+                  >
+                    (더보기)
+                  </a>
                 </small>
               </p>
             </div>
@@ -72,13 +84,17 @@ const footer = () => {
               <p className="">
                 <small>
                   Address : 서울 금천구 서부샛길 606 대성디폴리스지식산업센터
+                  A동 27층
                 </small>
               </p>
               <p className="">
                 <small>사업자 번호 : 123 456 789</small>
               </p>
               <p className="">
-                <small>이메일 : test@gmail.com</small>
+                <small>대표 : 홍지원</small>
+              </p>
+              <p className="">
+                <small>이메일 : redg01@naver.com</small>
               </p>
             </div>
           </div>
