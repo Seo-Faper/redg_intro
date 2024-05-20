@@ -2,10 +2,9 @@ import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 
 import Section from "../../../HOC/Section";
-import aboutImage1 from "../../../assets/img/s1.png";
-import aboutImage2 from "../../../assets/img/302.jpg";
-import aboutImage3 from "../../../assets/img/303.jpg";
-import aboutImage4 from "../../../assets/img/304.jpg";
+import aboutImage1 from "../../../assets/img/about1.jpg";
+import aboutImage2 from "../../../assets/img/about2.jpg";
+import aboutImage3 from "../../../assets/img/about3.jpg";
 
 const about = () => {
   return (
@@ -13,7 +12,7 @@ const about = () => {
       <div className="container pt-2 pb-5">
         <div className="section-header pt-5 pb-5 text-center">
           <h3 className="section-title">
-            <span>RedG </span>Company
+            <span>NaN </span>Programing Club
           </h3>
           <h6 className="section-subtitle mr-auto ml-auto"></h6>
         </div>
@@ -35,38 +34,28 @@ const about = () => {
                     <img src={aboutImage3} alt="about company" />
                     <Carousel.Caption></Carousel.Caption>
                   </Carousel.Item>
-                  <Carousel.Item>
-                    <img src={aboutImage4} alt="about company" />
-                    <Carousel.Caption></Carousel.Caption>
-                  </Carousel.Item>
+                 
                 </Carousel>
               </div>
             </div>
             <div className="col-md-12 col-lg-6">
               <h3 className="about-title">About us</h3>
               <div className="about-description">
-                <p>RedG 컴퍼니는 디지털 포렌식 업무 환경을 바꿀 것 입니다.</p>
+                <p>저희는 청주대학교 디지털보안학과의 프로그래밍 동아리 입니다.</p>
                 <p>
-                  현재 기술 발전의 속도에 발맞춰, 간단한 입력만으로 코드를
-                  생성해내는 GPT의 등장이 낡은 기술을 대체할 새로운 서비스들을
-                  대거 등장시키고 있습니다. 이러한 변화의 최전선에서 여러분은
-                  기술 발전을 뒤따르기만 할 것인가요? 디지털포렌식도 변화가
-                  필요합니다.
+                  컴퓨터를 좋아하는 사람들, 컴퓨터와 친해지고 싶은 사람들이 모여 뭔가 재밌는 걸 만드는 동아리 입니다.
                 </p>
                 <p>
-                  증거를 수집하는 데는 성공했으나, 그것을 효과적으로 정리하고
-                  보고서로 작성하는 데 어려움을 겪었던 분들, 또는 파일을 제대로
-                  정리하지 않고 나중에 보고서를 작성할 때 필요한 자료를 하나하나
-                  찾아 헤매었던 분들을 위한 해결책을 제공합니다. 우리의 서비스인
-                  SIGMA DF는 이러한 문제를 해결하고, 필요한 정보를 적절한 위치에
-                  쉽게 통합할 수 있도록 도와드립니다.
+                  저희는 각종 대회와 다양한 프로젝트를 만들고, 새로운 기술을 배우며 IT 전반적인 트렌드를 따라가려고 노력하고 있습니다.
+                  꼭 세상을 바꿀 대단한 프로그램을 만들지 않아도 내가 붙으면 남이 떨어지는 경쟁을 하지 않아도 프로그래밍이라는 것 자체는 정말 재미있습니다. 
+                  기술과 지식을 공유하며 뭐가 됐든 일단 만들고 보는 프로그래밍 동아리를 찾고 있다면 지금 바로 가입하세요.
                 </p>
                 <strong>
                   본 소개 메세지는 자체 개발 LLM에 의해 생성되었습니다_
                 </strong>
                 <br />
                 <br />
-                <button className="btn btn-danger rounded-0">도입 문의 </button>
+                <button className="btn btn-danger rounded-0">동아리 연혁 </button>
               </div>
             </div>
           </div>

@@ -15,21 +15,24 @@ const home = () => {
           style={{ backgroundColor: "#040D12" }}
         >
           <div className="intro container text-left text-light">
-            <h1 className="title">Sigma DF</h1>
+            <h1 className="title">Not a Newbie</h1>
             <div class="sub">
-              <span>디지털 포렌식</span>
-              <span>보고서 작성 보조 솔루션</span>
+              <span>청주대학교</span>
+              <span>프로그래밍 동아리</span>
             </div>
             <div className="btns">
               <Link target="about" classes="btn btn-danger rounded-0 mr-2">
                 더보기
               </Link>
-              <Link
-                target="contact"
-                classes="btn btn-light text-dark rounded-0"
+              <a
+                href="https://forms.gle/u3XM9JAdHKjt8HgY8"  // Replace with your actual URL
+                target="_blank"
+                rel="noopener noreferrer"  // Add this for security reasons
+                className="btn btn-light text-dark rounded-0"
               >
-                데모 신청 <FontAwesomeIcon icon={faExternalLinkAlt} />
-              </Link>
+                가입 신청 <FontAwesomeIcon icon={faExternalLinkAlt} />
+              </a>
+
             </div>
           </div>
         </div>

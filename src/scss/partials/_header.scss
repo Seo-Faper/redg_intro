@@ -7,6 +7,22 @@ $primary: #d53232;
     top: 0;
   }
 }
+.wrap-cell {
+  white-space: normal !important;
+}
+.my-modal {
+  width: 45vw !important; /* Occupy the 90% of the screen width */
+  max-width: 45vw !important;
+  position: relative !important;
+  display: table !important;
+  overflow-y: auto !important;
+  overflow-x: auto !important;
+  min-width: 300px !important;
+  height: 300px !important;
+  margin: auto !important;
+  top: 300px !important;
+  transform: translateY(-50%) !important;
+}
 .header {
   position: fixed;
   top: 0;

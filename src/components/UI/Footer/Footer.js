@@ -9,11 +9,11 @@ const footer = () => {
         <div className="row">
           <div className="col-sm-6 col-md-6 col-lg-4 mb-5">
             <div className="footer-title">
-              <h6>조직 소개</h6>
+              <h6>동아리 소개</h6>
             </div>
             <div className="footer-content">
               <p>
-                <small>차세대 보안 리더 양성 프로그램 12기 그랑프리팀</small>
+                <small>청주대학교 디지털보안학과 프로그래밍 동아리</small>
               </p>
             </div>
           </div>
@@ -83,25 +83,21 @@ const footer = () => {
             <div className="footer-content">
               <p className="">
                 <small>
-                  Address : 서울 금천구 서부샛길 606 대성디폴리스지식산업센터
-                  A동 27층
+                  Address : 청주대학교 융합관 (동방 없음 ㅋ)
                 </small>
               </p>
               <p className="">
-                <small>사업자 번호 : 123 456 789</small>
+                <small>회장 : 서종찬</small>
               </p>
               <p className="">
-                <small>대표 : 홍지원</small>
-              </p>
-              <p className="">
-                <small>이메일 : redg01@naver.com</small>
+                <small>이메일 : dswhdcks@naver.com</small>
               </p>
             </div>
           </div>
         </div>
       </div>
       <div className="bottom-footer pt-3 pb-3 text-center">
-        <small>© All Right Reserved. 2024 | RedG Company</small>
+        <small>© All Right Reserved. 2024 | NaN</small>
       </div>
     </footer>
   );
